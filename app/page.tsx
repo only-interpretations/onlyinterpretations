@@ -80,19 +80,19 @@ export default function Home() {
             <div className="flex flex-col items-start">
               <a href="mailto:hello@onlyinterpretations.com" className="flex items-center text-white text-2xl leading-9 hover:opacity-60 transition-opacity group">
                 <span>hello@onlyinterpretations.com</span>
-                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-2">
+                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-1">
                   <img src={ARROW_EMAIL} alt="" className="w-3 h-3 object-contain" />
                 </div>
               </a>
               <a href="https://www.instagram.com/only.interpretations/" target="_blank" rel="noopener noreferrer" className="flex items-center text-white text-2xl leading-9 hover:opacity-60 transition-opacity group">
                 <span>Instagram</span>
-                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-2">
+                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-1">
                   <img src={ARROW_SOCIAL} alt="" className="w-3 h-3 object-contain" />
                 </div>
               </a>
               <a href="https://www.linkedin.com/company/onlyinterpretations" target="_blank" rel="noopener noreferrer" className="flex items-center text-white text-2xl leading-9 hover:opacity-60 transition-opacity group">
                 <span>Linkedin</span>
-                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-2">
+                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-1">
                   <img src={ARROW_SOCIAL} alt="" className="w-3 h-3 object-contain" />
                 </div>
               </a>

@@ -23,7 +23,7 @@ export default function Info() {
           <a href="/" className="mb-4">
             <img src={BACK_ARROW} alt="Back" className="w-5 h-5 object-contain" />
           </a>
-          <h1 className="text-white font-normal text-[24px]/[32px] sm:text-[36px]/[46px] md:text-[48px]/[60px] max-w-[1300px]">
+          <h1 className="text-white font-normal text-[24px]/[32px] sm:text-[36px]/[46px] md:text-[48px]/[60px] max-w-[1400px]">
             We are a creative studio based in Byron Bay, Australia, and Athens, Greece.
             We partner with clients from the earliest stages of an idea, shaping brand strategy
             and creative direction through to final delivery across all platforms. Our work is
@@ -39,19 +39,19 @@ export default function Info() {
             <div className="flex flex-col items-start">
               <a href="mailto:hello@onlyinterpretations.com" className="flex items-center text-white text-2xl leading-9 hover:opacity-60 transition-opacity group">
                 <span>hello@onlyinterpretations.com</span>
-                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-2">
+                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-1">
                   <img src={ARROW_EMAIL} alt="" className="w-3 h-3 object-contain" />
                 </div>
               </a>
               <a href="https://www.instagram.com/only.interpretations/" target="_blank" rel="noopener noreferrer" className="flex items-center text-white text-2xl leading-9 hover:opacity-60 transition-opacity group">
                 <span>Instagram</span>
-                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-2">
+                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-1">
                   <img src={ARROW_SOCIAL} alt="" className="w-3 h-3 object-contain" />
                 </div>
               </a>
               <a href="https://www.linkedin.com/company/onlyinterpretations" target="_blank" rel="noopener noreferrer" className="flex items-center text-white text-2xl leading-9 hover:opacity-60 transition-opacity group">
                 <span>Linkedin</span>
-                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-2">
+                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-1">
                   <img src={ARROW_SOCIAL} alt="" className="w-3 h-3 object-contain" />
                 </div>
               </a>
