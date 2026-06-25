@@ -26,7 +26,7 @@ export default function Home() {
         </a>
       </nav>
 
-      <h1 className="text-white font-normal mt-[164px] md:mt-[232px] text-[40px]/[48px] md:text-[72px]/[80px]">
+      <h1 className="text-white font-normal mt-[164px] md:mt-[232px] text-[36px]/[44px] sm:text-[48px]/[56px] md:text-[72px]/[80px] max-w-[1400px]">
         Only Interpretations is a creative studio focused on visual communication.
       </h1>
 

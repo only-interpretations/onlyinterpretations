@@ -23,7 +23,7 @@ export default function Info() {
           <a href="/" className="mb-4">
             <img src={BACK_ARROW} alt="Back" className="w-5 h-5 object-contain" />
           </a>
-          <h1 className="text-white font-normal text-[28px]/[38px] md:text-[48px]/[60px]">
+          <h1 className="text-white font-normal text-[24px]/[32px] sm:text-[36px]/[46px] md:text-[48px]/[60px] max-w-[1300px]">
             We are a creative studio based in Byron Bay, Australia, and Athens, Greece.
             We partner with clients from the earliest stages of an idea, shaping brand strategy
             and creative direction through to final delivery across all platforms. Our work is
