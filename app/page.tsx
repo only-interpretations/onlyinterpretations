@@ -1,8 +1,13 @@
 const LOGO = "/logo.svg"
-const CLIENTS = "https://www.figma.com/api/mcp/asset/1115bdbb-c5f2-4ec5-b5f4-39616d5b43d0"
 const ARROW_EMAIL = "/arrow.svg"
 const ARROW_SOCIAL = "/arrow.svg"
 const FOOTER = "/mainlogo.svg"
+
+const CLIENT_1 = "/lndr.svg"
+const CLIENT_2 = "/vans.svg"
+const CLIENT_3 = "/valet.svg"
+const CLIENT_4 = "/onlyholy.svg"
+const CLIENT_5 = "/monoverse.svg"
 
 const col1 = ['Brand Strategy', 'Brand Identity', 'Digital Design', 'Graphic Design']
 const col2 = ['Art Direction', 'Photography', 'Illustration', 'Motion Design']
@@ -31,8 +36,12 @@ export default function Home() {
           <div className="border-t border-[#2a2a2a]" />
           <div className="flex flex-col gap-11 pt-2">
             <h4 className="text-[#838383] text-sm font-normal">Clients</h4>
-            <div className="flex items-start">
-              <img src={CLIENTS} alt="Client logos" className="h-7 w-auto object-contain object-left" />
+            <div className="flex flex-wrap items-center gap-x-[56px] md:gap-x-[72px] gap-y-[28px] max-w-full">
+              <img src={CLIENT_1} alt="LNDR" className="h-6 w-auto object-contain" />
+              <img src={CLIENT_2} alt="Vans" className="h-6 w-auto object-contain" />
+              <img src={CLIENT_3} alt="Valet" className="h-6 w-auto object-contain" />
+              <img src={CLIENT_4} alt="Only Holy" className="h-6 w-auto object-contain" />
+              <img src={CLIENT_5} alt="Monoverse" className="h-6 w-auto object-contain" />
             </div>
           </div>
         </section>
@@ -41,7 +50,6 @@ export default function Home() {
           <div className="border-t border-[#2a2a2a]" />
           <div className="flex flex-col gap-11 pt-2">
             <h4 className="text-[#838383] text-sm font-normal">Services</h4>
-            {/* FIXED: Replaced flex gap-256 with responsive CSS Grid columns */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl">
               <div>{col1.map(s => <p key={s} className="text-white text-2xl leading-8 whitespace-nowrap">{s}</p>)}</div>
               <div>{col2.map(s => <p key={s} className="text-white text-2xl leading-8 whitespace-nowrap">{s}</p>)}</div>
@@ -70,18 +78,23 @@ export default function Home() {
           <div className="flex flex-col gap-11 pt-2">
             <h4 className="text-[#838383] text-sm font-normal">Contact</h4>
             <div className="flex flex-col items-start">
-              {/* FIXED: Applied shrink-0 object-contain to icons to prevent stretching */}
               <a href="mailto:hello@onlyinterpretations.com" className="flex items-center text-white text-2xl leading-9 hover:opacity-60 transition-opacity group">
                 <span>hello@onlyinterpretations.com</span>
-                <img src={ARROW_EMAIL} alt="" className="w-10 h-10 ml-2 shrink-0 object-contain" />
+                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-2">
+                  <img src={ARROW_EMAIL} alt="" className="w-4 h-4 object-contain" />
+                </div>
               </a>
               <a href="https://www.instagram.com/only.interpretations/" target="_blank" rel="noopener noreferrer" className="flex items-center text-white text-2xl leading-9 hover:opacity-60 transition-opacity group">
                 <span>Instagram</span>
-                <img src={ARROW_SOCIAL} alt="" className="w-10 h-10 ml-2 shrink-0 object-contain" />
+                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-2">
+                  <img src={ARROW_SOCIAL} alt="" className="w-4 h-4 object-contain" />
+                </div>
               </a>
               <a href="https://www.linkedin.com/company/onlyinterpretations" target="_blank" rel="noopener noreferrer" className="flex items-center text-white text-2xl leading-9 hover:opacity-60 transition-opacity group">
                 <span>Linkedin</span>
-                <img src={ARROW_SOCIAL} alt="" className="w-10 h-10 ml-2 shrink-0 object-contain" />
+                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-2">
+                  <img src={ARROW_SOCIAL} alt="" className="w-4 h-4 object-contain" />
+                </div>
               </a>
             </div>
           </div>

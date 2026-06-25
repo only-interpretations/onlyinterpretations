@@ -21,7 +21,7 @@ export default function Info() {
 
         <div className="flex flex-col gap-2 items-start">
           <a href="/">
-            <img src={BACK_ARROW} alt="Back" className="w-10 h-10 shrink-0 object-contain" />
+            <img src={BACK_ARROW} alt="Back" className="h-10 w-auto object-contain" />
           </a>
           <h1 className="text-white font-normal text-[28px]/[38px] md:text-[48px]/[60px]">
             We are a creative studio based in Byron Bay, Australia, and Athens, Greece.
@@ -37,19 +37,28 @@ export default function Info() {
           <div className="flex flex-col gap-11 pt-2">
             <h4 className="text-[#838383] text-sm font-normal">Contact</h4>
             <div className="flex flex-col items-start">
-              {/* FIXED: Applied shrink-0 object-contain to info icons */}
+              
               <a href="mailto:hello@onlyinterpretations.com" className="flex items-center text-white text-2xl leading-9 hover:opacity-60 transition-opacity group">
                 <span>hello@onlyinterpretations.com</span>
-                <img src={ARROW_EMAIL} alt="" className="w-10 h-10 ml-2 shrink-0 object-contain" />
+                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-2">
+                  <img src={ARROW_EMAIL} alt="" className="w-4 h-4 object-contain" />
+                </div>
               </a>
+              
               <a href="https://www.instagram.com/only.interpretations/" target="_blank" rel="noopener noreferrer" className="flex items-center text-white text-2xl leading-9 hover:opacity-60 transition-opacity group">
                 <span>Instagram</span>
-                <img src={ARROW_SOCIAL} alt="" className="w-10 h-10 ml-2 shrink-0 object-contain" />
+                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-2">
+                  <img src={ARROW_SOCIAL} alt="" className="w-4 h-4 object-contain" />
+                </div>
               </a>
+              
               <a href="https://www.linkedin.com/company/onlyinterpretations" target="_blank" rel="noopener noreferrer" className="flex items-center text-white text-2xl leading-9 hover:opacity-60 transition-opacity group">
                 <span>Linkedin</span>
-                <img src={ARROW_SOCIAL} alt="" className="w-10 h-10 ml-2 shrink-0 object-contain" />
+                <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-2">
+                  <img src={ARROW_SOCIAL} alt="" className="w-4 h-4 object-contain" />
+                </div>
               </a>
+
             </div>
           </div>
         </section>
