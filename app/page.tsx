@@ -36,7 +36,7 @@ export default function Home() {
           <div className="border-t border-[#2a2a2a]" />
           <div className="flex flex-col gap-11 pt-2">
             <h4 className="text-[#838383] text-sm font-normal">Clients</h4>
-            <div className="flex flex-wrap items-center gap-x-[56px] md:gap-x-[72px] gap-y-[28px] max-w-full">
+            <div className="flex flex-wrap items-center gap-x-[56px] md:gap-x-[72px] gap-y-[48px] max-w-full">
               <img src={CLIENT_1} alt="LNDR" className="h-[20px] w-auto object-contain" />
               <img src={CLIENT_2} alt="Vans" className="h-[24px] w-auto object-contain" />
               <img src={CLIENT_3} alt="Valet" className="h-[24px] w-auto object-contain" />

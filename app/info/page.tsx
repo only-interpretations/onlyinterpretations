@@ -21,7 +21,7 @@ export default function Info() {
 
         <div className="flex flex-col items-start">
           <a href="/" className="mb-4">
-            <img src={BACK_ARROW} alt="Back" className="w-3 h-3 object-contain" />
+            <img src={BACK_ARROW} alt="Back" className="w-5 h-5 object-contain" />
           </a>
           <h1 className="text-white font-normal text-[28px]/[38px] md:text-[48px]/[60px]">
             We are a creative studio based in Byron Bay, Australia, and Athens, Greece.
