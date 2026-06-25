@@ -37,11 +37,11 @@ export default function Home() {
           <div className="flex flex-col gap-11 pt-2">
             <h4 className="text-[#838383] text-sm font-normal">Clients</h4>
             <div className="flex flex-wrap items-center gap-x-[56px] md:gap-x-[72px] gap-y-[28px] max-w-full">
-              <img src={CLIENT_1} alt="LNDR" className="h-6 w-auto object-contain" />
-              <img src={CLIENT_2} alt="Vans" className="h-6 w-auto object-contain" />
-              <img src={CLIENT_3} alt="Valet" className="h-6 w-auto object-contain" />
-              <img src={CLIENT_4} alt="Only Holy" className="h-6 w-auto object-contain" />
-              <img src={CLIENT_5} alt="Monoverse" className="h-6 w-auto object-contain" />
+              <img src={CLIENT_1} alt="LNDR" className="h-[20px] w-auto object-contain" />
+              <img src={CLIENT_2} alt="Vans" className="h-[24px] w-auto object-contain" />
+              <img src={CLIENT_3} alt="Valet" className="h-[24px] w-auto object-contain" />
+              <img src={CLIENT_4} alt="Only Holy" className="h-[28px] w-auto object-contain" />
+              <img src={CLIENT_5} alt="Monoverse" className="h-[16px] w-auto object-contain" />
             </div>
           </div>
         </section>
@@ -81,19 +81,19 @@ export default function Home() {
               <a href="mailto:hello@onlyinterpretations.com" className="flex items-center text-white text-2xl leading-9 hover:opacity-60 transition-opacity group">
                 <span>hello@onlyinterpretations.com</span>
                 <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-2">
-                  <img src={ARROW_EMAIL} alt="" className="w-4 h-4 object-contain" />
+                  <img src={ARROW_EMAIL} alt="" className="w-3 h-3 object-contain" />
                 </div>
               </a>
               <a href="https://www.instagram.com/only.interpretations/" target="_blank" rel="noopener noreferrer" className="flex items-center text-white text-2xl leading-9 hover:opacity-60 transition-opacity group">
                 <span>Instagram</span>
                 <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-2">
-                  <img src={ARROW_SOCIAL} alt="" className="w-4 h-4 object-contain" />
+                  <img src={ARROW_SOCIAL} alt="" className="w-3 h-3 object-contain" />
                 </div>
               </a>
               <a href="https://www.linkedin.com/company/onlyinterpretations" target="_blank" rel="noopener noreferrer" className="flex items-center text-white text-2xl leading-9 hover:opacity-60 transition-opacity group">
                 <span>Linkedin</span>
                 <div className="w-6 h-6 flex items-center justify-center shrink-0 ml-2">
-                  <img src={ARROW_SOCIAL} alt="" className="w-4 h-4 object-contain" />
+                  <img src={ARROW_SOCIAL} alt="" className="w-3 h-3 object-contain" />
                 </div>
               </a>
             </div>
